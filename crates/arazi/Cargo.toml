@@ -1,0 +1,17 @@
+[package]
+name = "arazi"
+version = "0.1.0"
+license.workspace = true
+repository.workspace = true
+edition = "2024"
+description = "3D terrain generation and selection library"
+
+[dependencies]
+flate2 = "1"
+glam = { version = "0.32", features = ["std"] }
+moderu = { path = "../moderu" }
+outil = { path = "../outil" }
+serde_json = "1"
+terra = { path = "../terra" }
+thiserror = "2"
+zukei = { path = "../zukei" }

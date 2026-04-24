@@ -1,0 +1,11 @@
+[package]
+name = "zukei"
+version = "0.1.0"
+edition = "2024"
+license.workspace = true
+description = "FFI-safe math primitives for geospatial runtimes"
+repository.workspace = true
+
+[dependencies]
+glam = { version = "0.32", features = ["std"] }
+outil = { path = "../outil" }

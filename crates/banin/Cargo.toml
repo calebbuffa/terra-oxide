@@ -1,0 +1,22 @@
+[package]
+name = "banin"
+version = "0.1.0"
+license.workspace = true
+repository.workspace = true
+edition = "2024"
+description = "Cesium terrain tile builder -- converts DEM rasters to quantized-mesh-1.0 and heightmap-1.0 tilesets"
+
+[[bin]]
+name = "banin"
+path = "src/main.rs"
+
+[dependencies]
+arazi = { path = "../arazi" }
+clap = { version = "4", features = ["derive"] }
+flate2 = "1"
+terra = { path = "../terra" }
+thiserror = "2"
+zukei = { path = "../zukei" }
+oxigdal-core = { git = "https://github.com/calebbuffa/oxigdal.git", branch = "master" }
+oxigdal-geotiff = { git = "https://github.com/calebbuffa/oxigdal.git", branch = "master" }
+oxigdal-proj = { git = "https://github.com/calebbuffa/oxigdal.git", branch = "master" }

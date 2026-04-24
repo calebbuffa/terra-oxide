@@ -1,0 +1,18 @@
+[package]
+name = "terra"
+description = "Geospatial primitives: ellipsoids, coordinate reference systems, and geodetic math"
+edition = "2024"
+version = "0.1.0"
+license.workspace = true
+repository.workspace = true
+
+[features]
+default = ["serde"]
+serde = ["dep:serde", "glam/serde"]
+
+[dependencies]
+glam = { version = "0.32", features = ["std"] }
+serde = { version = "1", features = ["derive"], optional = true }
+smallvec = "1.13"
+zukei = { path = "../zukei" }
+outil = { path = "../outil" }

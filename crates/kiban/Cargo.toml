@@ -1,0 +1,26 @@
+[package]
+name = "kiban"
+edition = "2024"
+version = "0.1.0"
+license.workspace = true
+description = "Streaming spatial data platform — Cesium3DTilesSelection equivalent for terra-oxide"
+repository.workspace = true
+
+[dependencies]
+arazi = { path = "../arazi" }
+sovra = { path = "../sovra" }
+moderu = { path = "../moderu" }
+outil = { path = "../outil" }
+orkester = { path = "../orkester" }
+courtier = { path = "../courtier" }
+terra = { path = "../terra" }
+zukei = { path = "../zukei" }
+glam = { version = "0.32", features = ["std"] }
+tairu = { path = "../tairu" }
+i3s = { path = "../i3s" }
+log = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+bitflags = "2"
+smallvec = { version = "1.13", features = ["union", "const_generics"] }

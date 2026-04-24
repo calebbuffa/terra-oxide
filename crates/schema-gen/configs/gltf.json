@@ -1,0 +1,477 @@
+{
+  "classes": {
+    "glTF": {
+      "overrideName": "GltfModel",
+      "propertyOverrides": {
+        "scene": "usize"
+      }
+    },
+
+    "glTF Property": {
+      "skip": true
+    },
+    "glTF Child of Root Property": {
+      "skip": true
+    },
+    "Extension": {
+      "skip": true
+    },
+    "Extras": {
+      "skip": true
+    },
+    "Any Value": {
+      "skip": true
+    },
+    "Numeric Value": {
+      "skip": true
+    },
+    "No Data Value": {
+      "skip": true
+    },
+    "CESIUM_RTC": {
+      "overrideName": "ExtensionCesiumRtc"
+    },
+    "KHR_texture_basisu glTF Texture Extension": {
+      "overrideName": "ExtensionKhrTextureBasisu"
+    },
+    "EXT_texture_webp glTF extension": {
+      "overrideName": "ExtensionTextureWebp"
+    },
+    "CESIUM_tile_edges glTF Mesh Primitive extension": {
+      "overrideName": "ExtensionCesiumTileEdges"
+    },
+    "EXT_instance_features glTF Node extension": {
+      "overrideName": "ExtensionExtInstanceFeatures"
+    },
+    "Feature ID in EXT_instance_features": {
+      "overrideName": "ExtInstanceFeaturesFeatureId"
+    },
+    "EXT_mesh_features glTF Mesh Primitive extension": {
+      "overrideName": "ExtensionExtMeshFeatures"
+    },
+    "Feature ID in EXT_mesh_features": {
+      "overrideName": "FeatureId"
+    },
+    "Feature ID Texture in EXT_mesh_features": {
+      "overrideName": "FeatureIdTexture"
+    },
+    "EXT_mesh_gpu_instancing glTF extension": {
+      "overrideName": "ExtensionExtMeshGpuInstancing"
+    },
+    "EXT_meshopt_compression buffer extension": {
+      "overrideName": "ExtensionBufferExtMeshoptCompression"
+    },
+    "EXT_meshopt_compression bufferView extension": {
+      "overrideName": "ExtensionBufferViewExtMeshoptCompression"
+    },
+    "EXT_structural_metadata glTF extension": {
+      "overrideName": "ExtensionExtStructuralMetadata"
+    },
+    "EXT_structural_metadata glTF Document extension": {
+      "overrideName": "ExtensionModelExtStructuralMetadata"
+    },
+    "EXT_structural_metadata glTF Mesh Primitive extension": {
+      "overrideName": "ExtensionMeshPrimitiveExtStructuralMetadata"
+    },
+    "Class Property in EXT_structural_metadata": {
+      "overrideName": "ClassProperty"
+    },
+    "Class in EXT_structural_metadata": {
+      "overrideName": "Class"
+    },
+    "Enum in EXT_structural_metadata": {
+      "overrideName": "EnumDefinition"
+    },
+    "Enum Value in EXT_structural_metadata": {
+      "overrideName": "EnumValue"
+    },
+    "Property Attribute Property in EXT_structural_metadata": {
+      "overrideName": "PropertyAttributeProperty"
+    },
+    "Property Attribute in EXT_structural_metadata": {
+      "overrideName": "PropertyAttribute"
+    },
+    "Property Table Property in EXT_structural_metadata": {
+      "overrideName": "PropertyTableProperty"
+    },
+    "Property Table in EXT_structural_metadata": {
+      "overrideName": "PropertyTable"
+    },
+    "Property Texture Property in EXT_structural_metadata": {
+      "overrideName": "PropertyTextureProperty"
+    },
+    "Property Texture in EXT_structural_metadata": {
+      "overrideName": "PropertyTexture"
+    },
+    "Schema in EXT_structural_metadata": {
+      "overrideName": "Schema"
+    },
+    "KHR_draco_mesh_compression glTF Mesh Primitive Extension": {
+      "overrideName": "ExtensionKhrDracoMeshCompression"
+    },
+    "KHR_materials_variants glTF Document Extension": {
+      "overrideName": "ExtensionModelKhrMaterialsVariants"
+    },
+    "KHR_materials_variants glTF Mesh Primitive Extension": {
+      "overrideName": "ExtensionMeshPrimitiveKhrMaterialsVariants"
+    },
+    "KHR_materials_unlit glTF Material Extension": {
+      "overrideName": "ExtensionKhrMaterialsUnlit"
+    },
+    "MAXAR_mesh_variants glTF extension": {
+      "overrideName": "ExtensionModelMaxarMeshVariants"
+    },
+    "MAXAR_mesh_variants node extension": {
+      "overrideName": "ExtensionNodeMaxarMeshVariants"
+    },
+    "KHR_texture_transform glTF TextureInfo Extension": {
+      "overrideName": "ExtensionKhrTextureTransform"
+    },
+    "CESIUM_primitive_outline glTF primitive extension": {
+      "overrideName": "ExtensionCesiumPrimitiveOutline"
+    },
+    "KHR_implicit_shapes glTF Document Extension": {
+      "overrideName": "ExtensionKhrImplicitShapes"
+    },
+    "KHR_implicit_shapes Shape Resource": {
+      "overrideName": "Shape"
+    },
+    "KHR_implicit_shapes Box Shape": {
+      "overrideName": "BoxShape"
+    },
+    "KHR_implicit_shapes Capsule Shape": {
+      "overrideName": "CapsuleShape"
+    },
+    "KHR_implicit_shapes Cylinder Shape": {
+      "overrideName": "CylinderShape"
+    },
+    "KHR_implicit_shapes Sphere Shape": {
+      "overrideName": "SphereShape"
+    },
+    "EXT_implicit_ellipsoid_region extension on KHR_implicit_shapes.shape": {
+      "overrideName": "ExtensionExtImplicitEllipsoidRegion"
+    },
+    "EXT_implicit_cylinder_region extension on KHR_implicit_shapes.shape": {
+      "overrideName": "ExtensionExtImplicitCylinderRegion"
+    },
+    "EXT_primitive_voxels glTF Mesh Primitive extension": {
+      "overrideName": "ExtensionExtPrimitiveVoxels"
+    },
+    "KHR_gaussian_splatting glTF Mesh Primitive Extension": {
+      "overrideName": "ExtensionKhrGaussianSplatting"
+    },
+    "KHR_gaussian_splatting_compression_spz_2 glTF Mesh Primitive Extension": {
+      "overrideName": "ExtensionKhrGaussianSplattingCompressionSpz2"
+    },
+    "Accessor": {
+      "propertyOverrides": {
+        "componentType": "AccessorComponentType",
+        "type": "AccessorType",
+        "bufferView": "usize",
+        "byteOffset": "usize",
+        "count": "usize"
+      }
+    },
+    "Accessor Sparse": {
+      "propertyOverrides": {
+        "count": "u64"
+      }
+    },
+    "Accessor Sparse Indices": {
+      "propertyOverrides": {
+        "bufferView": "usize",
+        "byteOffset": "usize",
+        "componentType": "AccessorComponentType"
+      }
+    },
+    "Accessor Sparse Values": {
+      "propertyOverrides": {
+        "bufferView": "usize",
+        "byteOffset": "usize"
+      }
+    },
+    "Animation Channel": {
+      "propertyOverrides": {
+        "sampler": "usize"
+      }
+    },
+    "Animation Channel Target": {
+      "propertyOverrides": {
+        "path": "AnimationPath",
+        "node": "usize"
+      }
+    },
+    "Animation Sampler": {
+      "propertyOverrides": {
+        "interpolation": "AnimationInterpolation",
+        "input": "usize",
+        "output": "usize"
+      }
+    },
+    "Buffer": {
+      "propertyOverrides": {
+        "byteLength": "usize"
+      },
+      "extraFields": [
+        {
+          "name": "data",
+          "rustType": "Vec<u8>",
+          "doc": "Runtime binary payload. Not part of the glTF JSON schema; skipped during (de)serialization."
+        }
+      ]
+    },
+    "Camera": {
+      "propertyOverrides": {
+        "type": "CameraType"
+      }
+    },
+    "Image": {
+      "propertyOverrides": {
+        "bufferView": "usize",
+        "mimeType": "String"
+      },
+      "extraFields": [
+        {
+          "name": "pixels",
+          "rustType": "crate::image::ImageData",
+          "doc": "Decoded pixel data. Populated by the reader pipeline; not serialized."
+        }
+      ]
+    },
+    "Material": {
+      "propertyOverrides": {
+        "alphaMode": "AlphaMode"
+      }
+    },
+    "Sampler": {
+      "propertyOverrides": {
+        "magFilter": "u32",
+        "minFilter": "u32",
+        "wrapS": "u32",
+        "wrapT": "u32"
+      }
+    },
+    "Buffer View": {
+      "propertyOverrides": {
+        "target": "u32",
+        "buffer": "usize",
+        "byteLength": "usize",
+        "byteOffset": "usize",
+        "byteStride": "usize"
+      }
+    },
+    "Mesh Primitive": {
+      "propertyOverrides": {
+        "mode": "PrimitiveMode",
+        "indices": "usize",
+        "material": "usize",
+        "attributes": "HashMap<String, usize>",
+        "targets": "Vec<HashMap<String, usize>>"
+      }
+    },
+    "Node": {
+      "propertyOverrides": {
+        "camera": "usize",
+        "mesh": "usize",
+        "skin": "usize",
+        "children": "Vec<usize>"
+      }
+    },
+    "Skin": {
+      "propertyOverrides": {
+        "inverseBindMatrices": "usize",
+        "skeleton": "usize",
+        "joints": "Vec<usize>"
+      }
+    },
+    "Scene": {
+      "propertyOverrides": {
+        "nodes": "Vec<usize>"
+      }
+    },
+    "Texture": {
+      "propertyOverrides": {
+        "sampler": "usize",
+        "source": "usize"
+      }
+    },
+    "Texture Info": {
+      "propertyOverrides": {
+        "index": "usize",
+        "texCoord": "usize"
+      }
+    },
+    "Material Normal Texture Info": {
+      "propertyOverrides": {
+        "index": "usize",
+        "texCoord": "usize"
+      }
+    },
+    "Material Occlusion Texture Info": {
+      "propertyOverrides": {
+        "index": "usize",
+        "texCoord": "usize"
+      }
+    }
+  },
+  "customTypes": {
+    "AccessorComponentType": {
+      "kind": "enum",
+      "numeric": true,
+      "doc": "Data type of accessor components (5120: BYTE, 5121: UNSIGNED_BYTE, 5122: SHORT, 5123: UNSIGNED_SHORT, 5125: UNSIGNED_INT, 5126: FLOAT).",
+      "variants": [
+        "Byte",
+        "UnsignedByte",
+        "Short",
+        "UnsignedShort",
+        "UnsignedInt",
+        "Float"
+      ],
+      "numericValues": {
+        "Byte": 5120,
+        "UnsignedByte": 5121,
+        "Short": 5122,
+        "UnsignedShort": 5123,
+        "UnsignedInt": 5125,
+        "Float": 5126
+      }
+    },
+    "AccessorType": {
+      "kind": "enum",
+      "doc": "Accessor type: specifies whether data is scalars, vectors, or matrices.",
+      "variants": [
+        "SCALAR",
+        "VEC2",
+        "VEC3",
+        "VEC4",
+        "MAT2",
+        "MAT3",
+        "MAT4"
+      ]
+    },
+    "AnimationInterpolation": {
+      "kind": "enum",
+      "doc": "Interpolation algorithm for animation samplers.",
+      "variants": [
+        "LINEAR",
+        "STEP",
+        "CUBICSPLINE"
+      ]
+    },
+    "AnimationPath": {
+      "kind": "enum",
+      "doc": "Animated property name (translation, rotation, scale, or weights).",
+      "variants": [
+        "translation",
+        "rotation",
+        "scale",
+        "weights"
+      ]
+    },
+    "CameraType": {
+      "kind": "enum",
+      "doc": "Camera projection type.",
+      "variants": [
+        "perspective",
+        "orthographic"
+      ]
+    },
+    "PrimitiveMode": {
+      "kind": "enum",
+      "numeric": true,
+      "doc": "Primitive rendering mode (0: POINTS, 1: LINES, 2: LINE_LOOP, 3: LINE_STRIP, 4: TRIANGLES, 5: TRIANGLE_STRIP, 6: TRIANGLE_FAN).",
+      "variants": [
+        "Points",
+        "Lines",
+        "LineLoop",
+        "LineStrip",
+        "Triangles",
+        "TriangleStrip",
+        "TriangleFan"
+      ],
+      "numericValues": {
+        "Points": 0,
+        "Lines": 1,
+        "LineLoop": 2,
+        "LineStrip": 3,
+        "Triangles": 4,
+        "TriangleStrip": 5,
+        "TriangleFan": 6
+      }
+    },
+    "AlphaMode": {
+      "kind": "enum",
+      "doc": "Alpha blending mode for materials.",
+      "variants": [
+        "OPAQUE",
+        "MASK",
+        "BLEND"
+      ]
+    }
+  },
+  "extensions": [
+    {
+      "extensionName": "CESIUM_RTC"
+    },
+    {
+      "extensionName": "CESIUM_tile_edges"
+    },
+    {
+      "extensionName": "CESIUM_primitive_outline"
+    },
+    {
+      "extensionName": "EXT_instance_features"
+    },
+    {
+      "extensionName": "EXT_mesh_features"
+    },
+    {
+      "extensionName": "EXT_mesh_gpu_instancing"
+    },
+    {
+      "extensionName": "EXT_meshopt_compression"
+    },
+    {
+      "extensionName": "EXT_structural_metadata"
+    },
+    {
+      "extensionName": "EXT_texture_webp"
+    },
+    {
+      "extensionName": "EXT_implicit_ellipsoid_region"
+    },
+    {
+      "extensionName": "EXT_implicit_cylinder_region"
+    },
+    {
+      "extensionName": "EXT_primitive_voxels"
+    },
+    {
+      "extensionName": "KHR_draco_mesh_compression"
+    },
+    {
+      "extensionName": "KHR_materials_unlit"
+    },
+    {
+      "extensionName": "KHR_materials_variants"
+    },
+    {
+      "extensionName": "KHR_texture_basisu"
+    },
+    {
+      "extensionName": "KHR_texture_transform"
+    },
+    {
+      "extensionName": "KHR_implicit_shapes"
+    },
+    {
+      "extensionName": "KHR_gaussian_splatting"
+    },
+    {
+      "extensionName": "KHR_gaussian_splatting_compression_spz_2"
+    },
+    {
+      "extensionName": "MAXAR_mesh_variants"
+    }
+  ]
+}

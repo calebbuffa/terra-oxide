@@ -1,0 +1,26 @@
+[package]
+name = "orkester"
+version = "0.1.0"
+edition = "2024"
+license.workspace = true
+description = "Context-aware task scheduling."
+repository.workspace = true
+keywords = ["runtime", "async", "ui"]
+categories = ["asynchronous", "concurrency"]
+rust-version = "1.85"
+readme = "README.md"
+
+[lib]
+crate-type = ["rlib"]
+
+[features]
+default = ["custom-runtime"]
+custom-runtime = []
+tokio-runtime = ["dep:tokio"]
+wasm = ["dep:wasm-bindgen-futures"]
+
+[dependencies]
+crossbeam-deque = "0.8"
+thiserror = "2"
+tokio = { version = "1", features = ["rt"], optional = true }
+wasm-bindgen-futures = { version = "0.4", optional = true }

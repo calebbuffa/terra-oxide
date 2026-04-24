@@ -1,0 +1,13 @@
+[package]
+name = "outil"
+edition = "2024"
+version = "0.1.0"
+license.workspace = true
+repository.workspace = true
+description = "Common utilities for the terra-oxide ecosystem"
+
+[dependencies]
+thiserror = "2"
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+js-sys = "0.3"

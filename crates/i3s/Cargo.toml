@@ -1,0 +1,17 @@
+[package]
+name = "i3s"
+version = "0.1.0"
+license.workspace = true
+repository.workspace = true
+edition = "2024"
+description = "I3S (Indexed 3D Scene Layer) specification"
+
+[features]
+strict = []
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+moderu = { path = "../moderu" }
+outil = { path = "../outil" }
