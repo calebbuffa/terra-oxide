@@ -1,6 +1,6 @@
 # terra-oxide
 
-`terra-oxide` is french for "base" or "foundation"contains shared infrastructure for working with 3D geospatial data.
+`terra-oxide` is intended to be a foundational crate for streaming 3D Geospatial data like 3D Tiles and I3S.
 
 ## Workspace
 
@@ -18,3 +18,5 @@
 - `kiban`: 3D Tiles selection
 - `coutier`: Asset fetching and loading
 - `arazi`: 3D terrain generation and selection
+- `banin`: CLI for generating 3D Tiles terrain tilesets from GeoTIFF DEMs
+- `cts`: 3D Tiles terrain server for testing and development
